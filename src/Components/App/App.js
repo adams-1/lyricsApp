@@ -1,9 +1,13 @@
 import React from 'react';
 import Header from '../Header/Header'
+import SearchBar from '../SearchBar/SearchBar'
 
 function App() {
   return (
-    <Header />
+    <div>
+      <Header />
+      <SearchBar />
+    </div>
   );
 }
 
