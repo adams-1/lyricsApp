@@ -8,7 +8,7 @@ function Header() {
         <div>
           <header className="Header">
             <p>
-              Lyrics App - The Best of All.
+              Lyrics App - The Worst.
             </p>
           </header>
         </div>

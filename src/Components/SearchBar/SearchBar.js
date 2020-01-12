@@ -6,10 +6,15 @@ class SearchBar extends React.Component {
     //    super();
     //}
 
+    onTextChange(event)
+    {
+        console.log(event.target.value);
+    }
+
     render() {
         return (
             <div>
-                Song Name: <input type="text"/>
+                Song Name: <input type="text" onChange= { this.onTextChange }/>
             </div>
         );
         
